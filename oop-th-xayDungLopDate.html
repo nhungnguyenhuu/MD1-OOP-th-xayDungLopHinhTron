@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Date{
+        day;
+        month;
+        year;
+        constructor(day, month, year) {
+            this.day = day;
+            this.month = month;
+            this.year = year;
+        }
+        getDay() {
+            return this.day;
+        }
+        setDay(day) {
+            this.day = day;
+        }
+        getMonth(){
+            return this.month;
+        }
+        setMonth() {
+            this.month = month;
+        }
+        getYear(){
+            return this.year;
+        }
+        setYear(){
+            this.year = year;
+        }
+    }
+    date = new Date(10, 10, 2019);
+    document.write(date.getDay()+ "/"+ date.getMonth() + "/" + date.getYear());
+</script>
+
+</body>
+</html>
